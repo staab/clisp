@@ -9,7 +9,7 @@ compile: src/**/*.c
 	cc --std=c99 \
 	-Wall \
 	-I lib/mpc \
-	src/main.c lib/mpc/mpc.c \
+	src/main.c lib/mpc/mpc.c src/lval.c \
 	-ledit -lm \
 	-o build/main
 
